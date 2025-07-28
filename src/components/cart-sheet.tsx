@@ -125,8 +125,8 @@ export function CartSheet() {
           </>
         ) : (
           <div className="flex-grow flex flex-col items-center justify-center text-center space-y-4">
-            <div className="bg-muted rounded-full p-4">
-                <ShoppingCart className="h-16 w-16 text-muted-foreground" />
+            <div className="relative w-48 h-48 mb-4">
+                <Image src="https://placehold.co/300x300.png" alt="Empty cart" layout="fill" className="rounded-full object-cover" data-ai-hint="shopping cart"/>
             </div>
             <h3 className="text-xl font-semibold">Your cart is empty</h3>
             <p className="text-muted-foreground">Add some products to get started.</p>
